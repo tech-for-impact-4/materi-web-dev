@@ -1,0 +1,49 @@
+
+
+#A {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+#B {
+  display: inline-block;
+  width: 400px;
+  height: 100px;
+  background-color: cadetblue;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  position: relative;
+  width: 500px;
+  height: 1000px;
+}
+
+.item {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  background-color: rgb(231, 157, 157);
+  border: 1px solid black;
+}
+
+#item-2 {
+  position: sticky;
+  top: 50px;
+  right: 0;
+  z-index: -1;
+  overflow: auto;
+}
+
+footer {
+  height: 1000px;
+}
+
+
+
+
