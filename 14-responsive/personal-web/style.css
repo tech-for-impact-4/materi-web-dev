@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(47, 47, 47);
+}
+
+body {
+  padding: 10px 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-style: normal;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background-color: rgba(105, 105, 200, 0.475);
+  border-radius: 50px;
+}
+
+header .bx-menu {
+  display: none;
+}
+
+#circle-1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(105, 105, 200);
+  border-radius: 100%;
+  position: absolute;
+  left: -50px;
+  top: 60px;
+  opacity: 50%;
+}
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 0;
+}
+
+#hero-greeting h1 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+#hero-greeting p {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+#hero-button button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+#hero-button button:hover {
+  background-color: rgb(131, 131, 255);
+}
+
+/* ketika ukuran layar dibawah 1080, terapkan styling dibawah */
+@media (max-width: 1080px) {
+  #hero-greeting h1 {
+    font-size: 3rem;
+  }
+
+  #hero-greeting p {
+    font-size: 1.5rem;
+  }
+  
+  #hero-img img {
+    width: 45vw;
+  }
+}
+
+/* ketika ukuran layar dibawah 768, terapkan styling dibawah */
+@media (max-width: 768px) {
+  main {
+    background-color: antiquewhite;
+  }
+
+  #hero {
+    display: flexbox;
+    flex-direction: column-reverse;
+  }
+
+  #hero-img img {
+    width: 50vw;
+  }
+}

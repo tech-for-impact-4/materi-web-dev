@@ -1,0 +1,23 @@
+html {
+  font-size: 12px;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  font-size: 15px;
+  width: 50vw;
+  height: 100vh;
+  background-color: rgb(255, 170, 58);
+}
+
+main p {
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
